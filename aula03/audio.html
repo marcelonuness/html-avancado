@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+
+    <style>
+        * {                
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 1320px;
+            margin: auto;
+            background-color: #DFE9FF;
+        }
+
+        #container {
+            margin: auto;
+            border: 1px solid blue;
+            width: 900px;
+            height: 645px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        audio {
+            display: block;            
+            margin: auto;
+            text-align: center;
+            padding-top: 300px;
+        }
+        
+        #card {
+            border: 1px solid red;
+            width: 350px;
+            height: 450px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <audio class="music">
+                <source src="audio/ed_sheeran_best_part_of_me_feat_yebba_official_lyric_video_3131468281568568928.mp3" type="audio/mpeg">
+            </audio>
+            <input id="progress" type="range" min="1" value="0" max="100">
+        </div>
+    </div>
+    
+</body>
+</html>
