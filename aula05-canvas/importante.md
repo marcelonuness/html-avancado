@@ -19,12 +19,15 @@ createLinearGradient() Cria um gradiente linear (para usar no conteúdo da tela)
 createPattern() Repete um elemento especificado na direção especificada
 createRadialGradient() Cria um gradiente radial/circular (para usar no conteúdo da tela)
 addColorStop() Especifica as cores e as posições de parada em um objeto de gradiente
-Estilização do line
-Propriedades
-lineCap Define ou retorna o estilo das terminações de uma linha
-lineJoin Define ou retorna o tipo de canto criado, quando duas linhas se encontram
-lineWidth Define ou retorna a largura da linha atual
-mitreLimit Define ou retorna o comprimento máximo da mitra
+
+## Estilização do line
+
+### Propriedades:
+
+*lineCap* Define ou retorna o estilo das terminações de uma linha
+*lineJoin* Define ou retorna o tipo de canto criado, quando duas linhas se encontram
+*lineWidth* Define ou retorna a largura da linha atual
+*mitreLimit* Define ou retorna o comprimento máximo da mitra
 
 ## Retângulos
 
